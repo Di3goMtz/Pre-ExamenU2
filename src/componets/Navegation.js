@@ -9,9 +9,8 @@ import ProductView from '../presenters/views/ProductsView';
 
 const Navegation = () => {
   const Stack = createStackNavigator();
-
   return (
-  
+    
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={Home} />

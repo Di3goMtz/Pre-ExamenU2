@@ -5,9 +5,7 @@ import ProductList from '../../componets/ProductList';
 import { useNavigation } from '@react-navigation/native';
 
 const ProductView = () => {
-
   const navigation = useNavigation();
-
   const [products, setProducts] = useState(['Televisor', 'Camisa', 'Manzanas', 'Croquetas', 'Sofá', 'Laptop', 'Pantalones', 'Leche', 'Peluche de Pokemon', 'Mesa de café']);
 
   return (

@@ -7,10 +7,8 @@ import { useNavigation } from '@react-navigation/native';
 
 
 const CategoryView = () => {
-  const [categories, setCategories] = useState(['Electronica', 'Ropa', 'Juguetes', 'Mascotas', 'Muebles']);
-
-  const navigation = useNavigation();
-
+  const [categories, setCategories] = useState(['Electronica', 'Ropa', 'Juguetes', 'Mascotas', 'Muebles'])
+  const navigation = useNavigation()
   return (
     <View>
       <Header />

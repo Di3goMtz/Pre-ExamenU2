@@ -1,5 +1,5 @@
 import React from 'react';
-import Navegation from './componets/Navegation';
+import Navegation from './src/componets/Navegation';
 
 
 const App = () => {
